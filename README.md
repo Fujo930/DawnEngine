@@ -1,5 +1,4 @@
 # Dawn Engine
- HEAD
 开源 3D 引擎，专为类坎巴拉太空游戏场景优化。
 
 ## 依赖
@@ -44,11 +43,14 @@ DawnEngine/
 - [ ] 基础 3D 场景
 - [ ] 数学库 (Vec3 / Quat / Transform)
 - [ ] 轨道力学模块
+- [ ] 等待更多消息
+
+
 =======
 An open-source 3D engine optimized for Kerbal Space Program-style games.
 Built with modern C++ and Vulkan, designed to be fast, modular, and community-driven.
 
-> v0.1 authored by [Fujo](https://github.com/你的用户名) & Claude AI (Anthropic)
+> v0.1 authored by [Fujo](https://github.com/Fujo930) & Claude AI (Anthropic)
 
 ---
 
@@ -61,13 +63,14 @@ Built with modern C++ and Vulkan, designed to be fast, modular, and community-dr
 
 ## Roadmap
 
-- [ ] Swapchain & render loop
-- [ ] Basic 3D scene rendering
+- [x] Swapchain & render loop
+- [x] Basic 3D scene rendering
 - [ ] Math library (Vec3 / Quat / Transform)
 - [ ] Orbital mechanics module
 - [ ] Atmospheric physics
 - [ ] Part assembly system
 - [ ] Mod / plugin API
+- [ ] More
 
 ---
 
