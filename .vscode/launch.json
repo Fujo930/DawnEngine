@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dawn Engine (Debug)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/DawnEngine.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "CMake Build"
+        }
+    ]
+}

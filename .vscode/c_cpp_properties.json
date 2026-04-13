@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/build/_deps/sdl2-src/include",
+                "${env:VULKAN_SDK}/Include"
+            ],
+            "defines": ["_DEBUG", "UNICODE"],
+            "compilerPath": "cl.exe",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
